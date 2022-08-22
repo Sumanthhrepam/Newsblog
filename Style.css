@@ -1,0 +1,240 @@
+body{
+    font-family:'Roboto';
+}
+.head{
+    background-color:#3C546C ;
+    text-align:center ;
+    padding: 1px;
+}
+.name{
+    font-size: 30px;
+    font-weight:bold ;
+    text-align: center;
+    background-color: white;
+    color: #3C546C;
+    margin-left: 530px;
+    margin-right: 530px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: orange;
+    border-bottom-width: 0px;
+   
+}
+.subname{
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    color: #3C546C;
+    margin-left: 530px;
+    margin-right: 530px;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: orange;
+    border-top-width: 0px;
+
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.f{
+    text-align: center;
+    background-color:#3C546C;
+    color: white;
+    padding: 10px;
+}
+.contentbox{
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
+
+.allnews{
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.n{
+    margin-left: 20px;
+    margin-right: 60px;
+}
+img{
+    width: 150px;
+    margin-right: 10px;
+    float: left;
+}
+.sc{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.selectn{
+    width: 180px;
+    height: 25px;
+}
+.sb{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.emailb{
+    width: 150px;
+    margin-top: 0px; 
+}
+.buttonb{
+    background-color:black;
+    color: white;
+    width: 80px;
+}
+.title{
+    font-size: 20px;
+    height: 10px;
+    margin-top: 30px;
+
+}
+.postedon{
+    font-size: 12px;
+    height: 5px;
+}
+.paragraph{
+    font-size: 15px;
+}
+.readbutton{
+    background-color: orange;
+    color: white;
+    width: 120px;
+    height: 25px;
+    border-width: 0px;
+    font-size: 10px;
+    margin-bottom: 15px;
+
+}
+@media  screen and (max-width:700px) {
+    .head{
+        width: 100%;
+    }
+    .name{
+        width: 30%;
+        font-size: 25px;
+        margin-left: 40%;
+        margin-right: 60%;
+        margin-bottom: 0%;
+    }
+    .subname{
+        width: 30%;
+        font-size: 15px;
+        margin-left: 40%;
+        margin-right: 60%;
+ 
+     }
+     .allnews{
+        font-size: 12px;
+    }
+   .sb{
+       font-size: 10px;
+   }
+   .sc{
+    font-size: 10px;
+   }
+   .emailb{
+    width: 90px;
+   }
+   .selectn{
+    width: 125px;
+    height: 22px;
+   }
+   .buttonb{
+    width: 70px;
+   }
+  img{
+    width: 25%;
+  }
+  .contentbox{
+    margin-right: 50px;
+  }
+  .postedon{
+    margin-bottom: 5px;
+    font-size: 8px;
+  }
+  .title{
+    font-size: 15px;
+  }
+  .paragraph{
+    margin-top: 20px;
+    font-size: 10px;
+  }
+
+}
+@media  screen and (max-width:1250px) {
+    .head{
+        width: 100%;
+    }
+    .name{
+        width: 170px;
+        margin-right: 50%;
+        margin-left: 40%;
+        margin-bottom: 0%;
+    }
+    .subname{
+        width: 170px;
+        margin-right: 50%;
+        margin-top: 0%;
+        margin-left: 40%;
+   
+        
+     }
+}
+@media  screen and (max-width:500px) {
+    .head{
+        width: 100%;
+    }
+    .name{
+        width: 35%;
+        margin-left: 35%;
+        margin-right: 40%;
+        margin-bottom: 0%;
+    }
+    .subname{
+        width: 35%;
+        margin-left: 35%;
+        margin-right: 40%;
+ 
+     }
+    .allnews{
+        font-size: 12px;
+    }
+   .sb{
+       font-size: 10px;
+   }
+   .sc{
+    font-size: 10px;
+   }
+   .emailb{
+    width: 90px;
+   }
+   .selectn{
+    width: 125px;
+    height: 22px;
+   }
+   .buttonb{
+    width: 70px;
+   }
+  img{
+    width: 30%;
+  }
+  .contentbox{
+    margin-right: 10px;
+  }
+  .postedon{
+    margin-bottom: 5px;
+  }
+  .paragraph{
+    margin-top: 20px;
+  }
+}
